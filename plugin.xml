@@ -130,6 +130,7 @@
 			</config>
 			<pods>
 				<pod name="Firebase/Messaging" spec="$IOS_FIREBASE_MESSAGING_VERSION"/>
+				<pod name="GoogleUtilities" options=":modular_headers => true" />
 			</pods>
 		</podspec>
 	</platform>
